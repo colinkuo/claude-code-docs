@@ -225,8 +225,8 @@
     "overview.md": {
       "original_url": "https://code.claude.com/docs/en/overview",
       "original_md_url": "https://code.claude.com/docs/en/overview.md",
-      "hash": "d33f5a875c86c0dc56468b0f3797a6310fca24d91536b9a5afc6ca31fe389372",
-      "last_updated": "2026-02-14T03:47:47.273238"
+      "hash": "29d594439961eed5eca5544fbe6dd6acb097254dd54ac1d36e8fe5202f80a6ce",
+      "last_updated": "2026-02-16T18:12:36.168839"
     },
     "permissions.md": {
       "original_url": "https://code.claude.com/docs/en/permissions",
@@ -345,8 +345,8 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-02-16T15:16:01.139013",
-    "fetch_duration_seconds": 32.111948,
+    "last_fetch_completed": "2026-02-16T18:12:47.544893",
+    "fetch_duration_seconds": 34.508357,
     "total_pages_discovered": 56,
     "pages_fetched_successfully": 57,
     "pages_failed": 0,
@@ -356,7 +356,7 @@
     "total_files": 57,
     "fetch_tool_version": "3.0"
   },
-  "last_updated": "2026-02-16T15:16:01.139044",
+  "last_updated": "2026-02-16T18:12:47.544924",
   "base_url": "https://raw.githubusercontent.com/colinkuo/claude-code-docs/main/docs/",
   "github_repository": "colinkuo/claude-code-docs",
   "github_ref": "main",
