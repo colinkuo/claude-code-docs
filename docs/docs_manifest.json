@@ -357,8 +357,8 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-03-05T15:18:09.837874",
-    "fetch_duration_seconds": 33.703992,
+    "last_fetch_completed": "2026-03-05T18:37:16.156032",
+    "fetch_duration_seconds": 34.3464,
     "total_pages_discovered": 58,
     "pages_fetched_successfully": 59,
     "pages_failed": 0,
@@ -368,7 +368,7 @@
     "total_files": 59,
     "fetch_tool_version": "3.0"
   },
-  "last_updated": "2026-03-05T15:18:09.837895",
+  "last_updated": "2026-03-05T18:37:16.156063",
   "base_url": "https://raw.githubusercontent.com/colinkuo/claude-code-docs/main/docs/",
   "github_repository": "colinkuo/claude-code-docs",
   "github_ref": "main",
