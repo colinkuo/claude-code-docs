@@ -268,8 +268,8 @@
     "permissions.md": {
       "original_url": "https://code.claude.com/docs/en/permissions",
       "original_md_url": "https://code.claude.com/docs/en/permissions.md",
-      "hash": "ede47dabbb5e229023ae26565fcb5785df5d076c8a6d0d8006dbe634ed99262e",
-      "last_updated": "2026-03-20T21:08:40.396770"
+      "hash": "d6ef58dd7349d9c7ae7d1bb3c8525925366da1e598c7a93667d6ee83c02dfcf5",
+      "last_updated": "2026-03-23T00:24:00.041433"
     },
     "plugin-marketplaces.md": {
       "original_url": "https://code.claude.com/docs/en/plugin-marketplaces",
@@ -405,8 +405,8 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-03-22T21:07:38.393367",
-    "fetch_duration_seconds": 38.627197,
+    "last_fetch_completed": "2026-03-23T00:24:13.252911",
+    "fetch_duration_seconds": 39.354054,
     "total_pages_discovered": 67,
     "pages_fetched_successfully": 68,
     "pages_failed": 0,
@@ -416,7 +416,7 @@
     "total_files": 67,
     "fetch_tool_version": "3.0"
   },
-  "last_updated": "2026-03-22T21:07:38.393396",
+  "last_updated": "2026-03-23T00:24:13.252933",
   "base_url": "https://raw.githubusercontent.com/colinkuo/claude-code-docs/main/docs/",
   "github_repository": "colinkuo/claude-code-docs",
   "github_ref": "main",
