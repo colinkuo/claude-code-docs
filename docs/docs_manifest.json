@@ -520,8 +520,8 @@
     "remote-control.md": {
       "original_url": "https://code.claude.com/docs/en/remote-control",
       "original_md_url": "https://code.claude.com/docs/en/remote-control.md",
-      "hash": "440332e73a0f7269e5cdea967be22eca319d3a409ad0855ce2958eb6ba815e6d",
-      "last_updated": "2026-04-04T18:09:59.008869"
+      "hash": "5a3dec441f424d07fd6d1c439b76a07776c251245ef7250b2ad22913d5c9c2a2",
+      "last_updated": "2026-04-09T15:33:08.440983"
     },
     "sandboxing.md": {
       "original_url": "https://code.claude.com/docs/en/sandboxing",
@@ -663,8 +663,8 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-04-09T12:22:26.384066",
-    "fetch_duration_seconds": 66.77766,
+    "last_fetch_completed": "2026-04-09T15:33:22.799305",
+    "fetch_duration_seconds": 70.01587,
     "total_pages_discovered": 110,
     "pages_fetched_successfully": 111,
     "pages_failed": 0,
@@ -674,7 +674,7 @@
     "total_files": 110,
     "fetch_tool_version": "3.0"
   },
-  "last_updated": "2026-04-09T12:22:26.384091",
+  "last_updated": "2026-04-09T15:33:22.799334",
   "base_url": "https://raw.githubusercontent.com/colinkuo/claude-code-docs/main/docs/",
   "github_repository": "colinkuo/claude-code-docs",
   "github_ref": "main",
