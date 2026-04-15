@@ -328,8 +328,8 @@
     "env-vars.md": {
       "original_url": "https://code.claude.com/docs/en/env-vars",
       "original_md_url": "https://code.claude.com/docs/en/env-vars.md",
-      "hash": "597f7e787f7925881775e4b295c08290330dac63d81402805bc3a36a1cec0833",
-      "last_updated": "2026-04-14T18:26:18.745462"
+      "hash": "8c9b9ae4ba6caab5e497013128e7d450a440bb2da3a4f5d7dfb20cce012eca63",
+      "last_updated": "2026-04-15T15:28:11.892580"
     },
     "fast-mode.md": {
       "original_url": "https://code.claude.com/docs/en/fast-mode",
@@ -556,8 +556,8 @@
     "settings.md": {
       "original_url": "https://code.claude.com/docs/en/settings",
       "original_md_url": "https://code.claude.com/docs/en/settings.md",
-      "hash": "f4783ed1689865b4bb60c1dd29f11de013eaec6e1112cc6e6e0da73ce9adfbd1",
-      "last_updated": "2026-04-14T21:18:22.022330"
+      "hash": "bd6efd6345840d38eb55e3232213b17a94b5f82d585e58e72975c634a5b86b4c",
+      "last_updated": "2026-04-15T15:28:35.223625"
     },
     "setup.md": {
       "original_url": "https://code.claude.com/docs/en/setup",
@@ -669,8 +669,8 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-04-15T12:22:37.365177",
-    "fetch_duration_seconds": 68.174906,
+    "last_fetch_completed": "2026-04-15T15:28:46.118143",
+    "fetch_duration_seconds": 67.758867,
     "total_pages_discovered": 111,
     "pages_fetched_successfully": 112,
     "pages_failed": 0,
@@ -680,7 +680,7 @@
     "total_files": 111,
     "fetch_tool_version": "3.0"
   },
-  "last_updated": "2026-04-15T12:22:37.365204",
+  "last_updated": "2026-04-15T15:28:46.118171",
   "base_url": "https://raw.githubusercontent.com/colinkuo/claude-code-docs/main/docs/",
   "github_repository": "colinkuo/claude-code-docs",
   "github_ref": "main",
