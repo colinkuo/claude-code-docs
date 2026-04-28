@@ -24,7 +24,7 @@ Find the error message or symptom you're seeing:
 | `Failed to fetch version` or can't reach download server                                | [Check network and proxy settings](#check-network-connectivity)                                                         |
 | `irm is not recognized` or `&& is not valid`                                            | [Use the right command for your shell](#windows-wrong-install-command)                                                  |
 | `'bash' is not recognized as the name of a cmdlet`                                      | [Use the Windows installer command](#windows-wrong-install-command)                                                     |
-| `Claude Code on Windows requires git-bash`                                              | [Install or configure Git Bash](#windows-claude-code-on-windows-requires-git-bash)                                      |
+| `Claude Code on Windows requires either Git for Windows (for bash) or PowerShell`       | [Install a shell](#windows-claude-code-on-windows-requires-either-git-for-windows-for-bash-or-powershell)               |
 | `Claude Code does not support 32-bit Windows`                                           | [Open Windows PowerShell, not the x86 entry](#windows-claude-code-does-not-support-32-bit-windows)                      |
 | `Error loading shared library`                                                          | [Wrong binary variant for your system](#linux-wrong-binary-variant-installed-musl/glibc-mismatch)                       |
 | `Illegal instruction` on Linux                                                          | [Architecture mismatch](#illegal-instruction-on-linux)                                                                  |
@@ -454,13 +454,16 @@ If you installed an older version of Claude Desktop, it may register a `Claude.e
 
 Update Claude Desktop to the latest version to fix this issue.
 
-### Windows: Claude Code on Windows requires git-bash
+### Windows: "Claude Code on Windows requires either Git for Windows (for bash) or PowerShell"
 
-Claude Code on native Windows needs [Git for Windows](https://git-scm.com/downloads/win), which includes Git Bash.
+Claude Code on native Windows needs at least one shell: either [Git for Windows](https://git-scm.com/downloads/win) for Bash, or PowerShell. When neither is found, this error appears at startup. If only PowerShell is found, Claude Code uses the PowerShell tool instead of Bash.
 
-**If Git is not installed**, download and install it from [git-scm.com/downloads/win](https://git-scm.com/downloads/win). During setup, select "Add to PATH." Restart your terminal after installing.
+**If neither is installed**, install one:
 
-**If Git is already installed** but Claude Code still can't find it, set the path in your [settings.json file](/en/settings):
+* Git for Windows: download from [git-scm.com/downloads/win](https://git-scm.com/downloads/win). During setup, select "Add to PATH." Restart your terminal after installing.
+* PowerShell 7: download from [aka.ms/powershell](https://aka.ms/powershell).
+
+**If Git is already installed** but Claude Code can't find it, set the path in your [settings.json file](/en/settings):
 
 ```json theme={null}
 {
