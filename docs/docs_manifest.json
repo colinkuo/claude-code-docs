@@ -391,6 +391,12 @@
       "hash": "9e89b6ae92bcca3909daffba57d1db66598335df276a82b901c141812dc8c48e",
       "last_updated": "2026-04-14T21:18:02.500741"
     },
+    "glossary.md": {
+      "original_url": "https://code.claude.com/docs/en/glossary",
+      "original_md_url": "https://code.claude.com/docs/en/glossary.md",
+      "hash": "c05229f2f05496c3ac366d1984446daa00b2c3649fbfe425b162b49d26e33291",
+      "last_updated": "2026-04-28T15:49:00.787532"
+    },
     "google-vertex-ai.md": {
       "original_url": "https://code.claude.com/docs/en/google-vertex-ai",
       "original_md_url": "https://code.claude.com/docs/en/google-vertex-ai.md",
@@ -717,18 +723,18 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-04-28T12:37:11.598633",
-    "fetch_duration_seconds": 63.933103,
-    "total_pages_discovered": 119,
-    "pages_fetched_successfully": 120,
+    "last_fetch_completed": "2026-04-28T15:49:30.848490",
+    "fetch_duration_seconds": 66.886273,
+    "total_pages_discovered": 120,
+    "pages_fetched_successfully": 121,
     "pages_failed": 0,
     "failed_pages": [],
     "sitemap_url": "https://code.claude.com/docs/sitemap.xml",
     "base_url": "https://code.claude.com",
-    "total_files": 119,
+    "total_files": 120,
     "fetch_tool_version": "3.0"
   },
-  "last_updated": "2026-04-28T12:37:11.598664",
+  "last_updated": "2026-04-28T15:49:30.848520",
   "base_url": "https://raw.githubusercontent.com/colinkuo/claude-code-docs/main/docs/",
   "github_repository": "colinkuo/claude-code-docs",
   "github_ref": "main",
