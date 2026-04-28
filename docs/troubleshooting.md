@@ -520,18 +520,13 @@ If the installer prints `Illegal instruction` instead of the OOM `Killed` messag
 bash: line 142: 2238232 Illegal instruction    "$binary_path" install ${TARGET:+"$TARGET"}
 ```
 
-**Solutions:**
+**Verify your architecture**:
 
-1. **Verify your architecture**:
-   ```bash theme={null}
-   uname -m
-   ```
-   `x86_64` means 64-bit Intel/AMD, `aarch64` means ARM64. If the binary doesn't match, [file a GitHub issue](https://github.com/anthropics/claude-code/issues) with the output.
+```bash theme={null}
+uname -m
+```
 
-2. **Try an alternative install method** while the architecture issue is resolved:
-   ```bash theme={null}
-   brew install --cask claude-code
-   ```
+`x86_64` means 64-bit Intel/AMD, `aarch64` means ARM64. If the binary doesn't match, [file a GitHub issue](https://github.com/anthropics/claude-code/issues) with the output. Alternative install methods download the same architecture-specific binary and won't resolve this error.
 
 ### `dyld: cannot load` on macOS
 
@@ -554,12 +549,7 @@ dyld: Symbol not found: _ubrk_clone
 
 1. **Check your macOS version**: Claude Code requires macOS 13.0 or later. Open the Apple menu and select About This Mac to check your version.
 
-2. **Update macOS** if you're on an older version. The binary uses load commands that older macOS versions don't support.
-
-3. **Try Homebrew** as an alternative install method:
-   ```bash theme={null}
-   brew install --cask claude-code
-   ```
+2. **Update macOS** if you're on an older version. The binary uses load commands and system libraries that older macOS versions don't support. Alternative install methods like Homebrew download the same binary and won't resolve this error.
 
 ### Windows installation issues: errors in WSL
 
