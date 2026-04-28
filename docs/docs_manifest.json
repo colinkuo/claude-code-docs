@@ -75,8 +75,8 @@
     "agent-sdk__overview.md": {
       "original_url": "https://code.claude.com/docs/en/agent-sdk/overview",
       "original_md_url": "https://code.claude.com/docs/en/agent-sdk/overview.md",
-      "hash": "b27888bae229439e293d0e9a523fdeabc702c9da3a8bb48b505f46d68a672456",
-      "last_updated": "2026-04-17T21:15:49.480479"
+      "hash": "34580159869e1ab7be7064f33a1a7024757aec6771e4b6027fc089961b9c8cae",
+      "last_updated": "2026-04-28T21:24:42.251470"
     },
     "agent-sdk__permissions.md": {
       "original_url": "https://code.claude.com/docs/en/agent-sdk/permissions",
@@ -735,8 +735,8 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-04-28T18:33:53.017689",
-    "fetch_duration_seconds": 72.145659,
+    "last_fetch_completed": "2026-04-28T21:25:40.056739",
+    "fetch_duration_seconds": 64.318266,
     "total_pages_discovered": 122,
     "pages_fetched_successfully": 123,
     "pages_failed": 0,
@@ -746,7 +746,7 @@
     "total_files": 122,
     "fetch_tool_version": "3.0"
   },
-  "last_updated": "2026-04-28T18:33:53.017715",
+  "last_updated": "2026-04-28T21:25:40.056765",
   "base_url": "https://raw.githubusercontent.com/colinkuo/claude-code-docs/main/docs/",
   "github_repository": "colinkuo/claude-code-docs",
   "github_ref": "main",
