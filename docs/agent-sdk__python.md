@@ -3167,6 +3167,10 @@ class SandboxNetworkConfig(TypedDict, total=False):
 | `httpProxyPort`           | `int`       | `None`  | HTTP proxy port for network requests                                                                                                                   |
 | `socksProxyPort`          | `int`       | `None`  | SOCKS proxy port for network requests                                                                                                                  |
 
+<Note>
+  The built-in sandbox proxy enforces the network allowlist based on the requested hostname and does not terminate or inspect TLS traffic, so techniques such as [domain fronting](https://en.wikipedia.org/wiki/Domain_fronting) can potentially bypass it. See [Sandboxing security limitations](/en/sandboxing#security-limitations) for details and [Secure deployment](/en/agent-sdk/secure-deployment#traffic-forwarding) for configuring a TLS-terminating proxy.
+</Note>
+
 ### `SandboxIgnoreViolations`
 
 Configuration for ignoring specific sandbox violations.
