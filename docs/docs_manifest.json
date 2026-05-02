@@ -328,14 +328,14 @@
     "desktop.md": {
       "original_url": "https://code.claude.com/docs/en/desktop",
       "original_md_url": "https://code.claude.com/docs/en/desktop.md",
-      "hash": "18b59ad2b5302c047c44fdaff68de93baa8fda83d4edbe27f291412ab3de1148",
-      "last_updated": "2026-04-25T21:12:17.238990"
+      "hash": "dcdfd83baf1b01eab70629aa9ef0c38c2025ad505c6795487ef7b004d1b9d86e",
+      "last_updated": "2026-05-02T04:07:05.994581"
     },
     "desktop-quickstart.md": {
       "original_url": "https://code.claude.com/docs/en/desktop-quickstart",
       "original_md_url": "https://code.claude.com/docs/en/desktop-quickstart.md",
-      "hash": "3b37772301e27ce1fbc9e6b08ab4c50760cdc97c884989942e17f0a1a419ec99",
-      "last_updated": "2026-04-25T21:12:17.782337"
+      "hash": "4696210c0ddbd043e14e04bf8ed03e51ef5ed323c9f0486d77f0eb73720f04b8",
+      "last_updated": "2026-05-02T04:07:06.567925"
     },
     "desktop-scheduled-tasks.md": {
       "original_url": "https://code.claude.com/docs/en/desktop-scheduled-tasks",
@@ -741,8 +741,8 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-05-02T00:34:28.758298",
-    "fetch_duration_seconds": 64.776468,
+    "last_fetch_completed": "2026-05-02T04:07:45.214588",
+    "fetch_duration_seconds": 70.255024,
     "total_pages_discovered": 123,
     "pages_fetched_successfully": 124,
     "pages_failed": 0,
@@ -752,7 +752,7 @@
     "total_files": 123,
     "fetch_tool_version": "3.0"
   },
-  "last_updated": "2026-05-02T00:34:28.758326",
+  "last_updated": "2026-05-02T04:07:45.214613",
   "base_url": "https://raw.githubusercontent.com/colinkuo/claude-code-docs/main/docs/",
   "github_repository": "colinkuo/claude-code-docs",
   "github_ref": "main",
