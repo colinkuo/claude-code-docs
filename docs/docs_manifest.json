@@ -616,8 +616,8 @@
     "setup.md": {
       "original_url": "https://code.claude.com/docs/en/setup",
       "original_md_url": "https://code.claude.com/docs/en/setup.md",
-      "hash": "dc27ea296715b9a1fed3a5529f367d2e7985c45860f1c8f60f2e7adc537c4ba2",
-      "last_updated": "2026-05-06T15:47:33.551166"
+      "hash": "4da6ea2da69d8a3eb9dd00b4d06e3f666d9fb6645722a617e7e70c2d206d0233",
+      "last_updated": "2026-05-06T18:34:56.866001"
     },
     "skills.md": {
       "original_url": "https://code.claude.com/docs/en/skills",
@@ -747,8 +747,8 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-05-06T15:47:45.046106",
-    "fetch_duration_seconds": 67.552002,
+    "last_fetch_completed": "2026-05-06T18:35:08.274313",
+    "fetch_duration_seconds": 66.980463,
     "total_pages_discovered": 124,
     "pages_fetched_successfully": 125,
     "pages_failed": 0,
@@ -758,7 +758,7 @@
     "total_files": 124,
     "fetch_tool_version": "3.0"
   },
-  "last_updated": "2026-05-06T15:47:45.046131",
+  "last_updated": "2026-05-06T18:35:08.274341",
   "base_url": "https://raw.githubusercontent.com/colinkuo/claude-code-docs/main/docs/",
   "github_repository": "colinkuo/claude-code-docs",
   "github_ref": "main",
