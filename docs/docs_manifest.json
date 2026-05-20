@@ -616,8 +616,8 @@
     "routines.md": {
       "original_url": "https://code.claude.com/docs/en/routines",
       "original_md_url": "https://code.claude.com/docs/en/routines.md",
-      "hash": "9edc52477468f6bedda15381bc07180ef4bd0a800ecc69b5122369156c78cba9",
-      "last_updated": "2026-05-19T16:08:00.357078"
+      "hash": "27213e9ed746e4bde09615714f53bf8e5478c2d6948ee0bdf4eae1df96f73606",
+      "last_updated": "2026-05-20T00:42:11.475205"
     },
     "sandboxing.md": {
       "original_url": "https://code.claude.com/docs/en/sandboxing",
@@ -807,8 +807,8 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-05-19T21:32:31.847133",
-    "fetch_duration_seconds": 71.109547,
+    "last_fetch_completed": "2026-05-20T00:42:28.216682",
+    "fetch_duration_seconds": 71.992182,
     "total_pages_discovered": 134,
     "pages_fetched_successfully": 135,
     "pages_failed": 0,
@@ -818,7 +818,7 @@
     "total_files": 134,
     "fetch_tool_version": "3.0"
   },
-  "last_updated": "2026-05-19T21:32:31.847155",
+  "last_updated": "2026-05-20T00:42:28.216713",
   "base_url": "https://raw.githubusercontent.com/colinkuo/claude-code-docs/main/docs/",
   "github_repository": "colinkuo/claude-code-docs",
   "github_ref": "main",
