@@ -646,8 +646,8 @@
     "scheduled-tasks.md": {
       "original_url": "https://code.claude.com/docs/en/scheduled-tasks",
       "original_md_url": "https://code.claude.com/docs/en/scheduled-tasks.md",
-      "hash": "0725620f2665d463ea9f38fad0fd3e068b5b72d7debc3b387744970d35689202",
-      "last_updated": "2026-05-21T00:42:15.143830"
+      "hash": "aa581e159df1905ebe40e4f52ad465654f1563f2e29f3f30aae81b33c6203abc",
+      "last_updated": "2026-05-21T18:39:19.166638"
     },
     "security.md": {
       "original_url": "https://code.claude.com/docs/en/security",
@@ -831,8 +831,8 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-05-21T16:07:17.876098",
-    "fetch_duration_seconds": 73.572512,
+    "last_fetch_completed": "2026-05-21T18:39:36.361996",
+    "fetch_duration_seconds": 77.958946,
     "total_pages_discovered": 138,
     "pages_fetched_successfully": 139,
     "pages_failed": 0,
@@ -842,7 +842,7 @@
     "total_files": 138,
     "fetch_tool_version": "3.0"
   },
-  "last_updated": "2026-05-21T16:07:17.876130",
+  "last_updated": "2026-05-21T18:39:36.362028",
   "base_url": "https://raw.githubusercontent.com/colinkuo/claude-code-docs/main/docs/",
   "github_repository": "colinkuo/claude-code-docs",
   "github_ref": "main",
