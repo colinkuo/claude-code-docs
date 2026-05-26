@@ -430,8 +430,8 @@
     "github-enterprise-server.md": {
       "original_url": "https://code.claude.com/docs/en/github-enterprise-server",
       "original_md_url": "https://code.claude.com/docs/en/github-enterprise-server.md",
-      "hash": "7d6cfb939ad57f2c5b49b7a29705f6211eeff6774c4467a960062106e552ee2a",
-      "last_updated": "2026-04-14T21:18:01.905929"
+      "hash": "e844696a4ceb04960241b7919f26ff4b5d9ced57a5da90fb81d7a68e489b9730",
+      "last_updated": "2026-05-26T04:27:18.212158"
     },
     "gitlab-ci-cd.md": {
       "original_url": "https://code.claude.com/docs/en/gitlab-ci-cd",
@@ -843,8 +843,8 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-05-26T00:40:32.590504",
-    "fetch_duration_seconds": 78.499769,
+    "last_fetch_completed": "2026-05-26T04:27:55.034457",
+    "fetch_duration_seconds": 75.27873,
     "total_pages_discovered": 140,
     "pages_fetched_successfully": 141,
     "pages_failed": 0,
@@ -854,7 +854,7 @@
     "total_files": 140,
     "fetch_tool_version": "3.0"
   },
-  "last_updated": "2026-05-26T00:40:32.590532",
+  "last_updated": "2026-05-26T04:27:55.034489",
   "base_url": "https://raw.githubusercontent.com/colinkuo/claude-code-docs/main/docs/",
   "github_repository": "colinkuo/claude-code-docs",
   "github_ref": "main",
