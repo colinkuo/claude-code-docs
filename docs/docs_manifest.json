@@ -243,8 +243,8 @@
     "changelog.md": {
       "original_url": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md",
       "original_raw_url": "https://raw.githubusercontent.com/anthropics/claude-code/main/CHANGELOG.md",
-      "hash": "65228e841640e694a31053f3a240e93126b03eca5e0663efee466e5bc0c75eb2",
-      "last_updated": "2026-05-31T21:23:07.874855",
+      "hash": "4afedc332c823c903cbb73dc17c22c91dc516b6684669e3c96e80336c4ea1992",
+      "last_updated": "2026-06-02T04:33:26.843081",
       "source": "claude-code-repository"
     },
     "channels.md": {
@@ -616,8 +616,8 @@
     "plugins-reference.md": {
       "original_url": "https://code.claude.com/docs/en/plugins-reference",
       "original_md_url": "https://code.claude.com/docs/en/plugins-reference.md",
-      "hash": "9c2c90692bb36112e4387585210901d51c4017b10014e27b9bc6857a39c94248",
-      "last_updated": "2026-05-30T00:40:40.972122"
+      "hash": "f6e9308b165f187c7a8b18a0d7a12cf556a88ba890443394f1be3f779cf62b47",
+      "last_updated": "2026-06-02T04:32:50.444407"
     },
     "prompt-caching.md": {
       "original_url": "https://code.claude.com/docs/en/prompt-caching",
@@ -856,8 +856,8 @@
     "workflows.md": {
       "original_url": "https://code.claude.com/docs/en/workflows",
       "original_md_url": "https://code.claude.com/docs/en/workflows.md",
-      "hash": "715831a42cf68148a22b42bc14b3cd095e52c711dd5b8c3ce598cb7610492907",
-      "last_updated": "2026-06-01T22:04:27.480895"
+      "hash": "23318d521fb358115cbe3c0bb8596fbf1938efeca71c3aed842c771a9b8bb8ff",
+      "last_updated": "2026-06-02T04:33:25.070353"
     },
     "worktrees.md": {
       "original_url": "https://code.claude.com/docs/en/worktrees",
@@ -873,8 +873,8 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-06-02T00:48:28.765993",
-    "fetch_duration_seconds": 155.223252,
+    "last_fetch_completed": "2026-06-02T04:33:26.843127",
+    "fetch_duration_seconds": 128.292936,
     "total_pages_discovered": 145,
     "pages_fetched_successfully": 146,
     "pages_failed": 0,
@@ -884,7 +884,7 @@
     "total_files": 145,
     "fetch_tool_version": "3.0"
   },
-  "last_updated": "2026-06-02T00:48:28.766019",
+  "last_updated": "2026-06-02T04:33:26.843148",
   "base_url": "https://raw.githubusercontent.com/colinkuo/claude-code-docs/main/docs/",
   "github_repository": "colinkuo/claude-code-docs",
   "github_ref": "main",
