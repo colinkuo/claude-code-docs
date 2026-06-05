@@ -243,8 +243,8 @@
     "changelog.md": {
       "original_url": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md",
       "original_raw_url": "https://raw.githubusercontent.com/anthropics/claude-code/main/CHANGELOG.md",
-      "hash": "45164273e01807048ec592f3f87b87f875dfd57d08b24e1f171cd5fb3f66ffbe",
-      "last_updated": "2026-06-05T00:46:04.301233",
+      "hash": "4178cb1424105acf4a9011ceaa36b6a316ace3da951ffd0539b68dcd56804492",
+      "last_updated": "2026-06-05T07:31:32.591871",
       "source": "claude-code-repository"
     },
     "channels.md": {
@@ -873,8 +873,8 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-06-05T04:33:06.117372",
-    "fetch_duration_seconds": 138.799247,
+    "last_fetch_completed": "2026-06-05T07:31:32.591922",
+    "fetch_duration_seconds": 128.388053,
     "total_pages_discovered": 145,
     "pages_fetched_successfully": 146,
     "pages_failed": 0,
@@ -884,7 +884,7 @@
     "total_files": 145,
     "fetch_tool_version": "3.0"
   },
-  "last_updated": "2026-06-05T04:33:06.117408",
+  "last_updated": "2026-06-05T07:31:32.591944",
   "base_url": "https://raw.githubusercontent.com/colinkuo/claude-code-docs/main/docs/",
   "github_repository": "colinkuo/claude-code-docs",
   "github_ref": "main",
