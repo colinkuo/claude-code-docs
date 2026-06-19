@@ -177,8 +177,8 @@
     "agent-sdk__typescript.md": {
       "original_url": "https://code.claude.com/docs/en/agent-sdk/typescript",
       "original_md_url": "https://code.claude.com/docs/en/agent-sdk/typescript.md",
-      "hash": "ae2feef7dc10039f6214ea91383888eef9dd294787f86cb54939bff27fad28f0",
-      "last_updated": "2026-06-18T21:41:47.027158"
+      "hash": "a24f0ce57d9054625628b49fa01ec81e19231d8e9f65ba3c3d030ee518b55135",
+      "last_updated": "2026-06-19T21:25:52.954906"
     },
     "agent-sdk__typescript-v2-preview.md": {
       "original_url": "https://code.claude.com/docs/en/agent-sdk/typescript-v2-preview",
@@ -897,8 +897,8 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-06-19T18:39:05.536910",
-    "fetch_duration_seconds": 140.023793,
+    "last_fetch_completed": "2026-06-19T21:27:27.319919",
+    "fetch_duration_seconds": 116.84071,
     "total_pages_discovered": 149,
     "pages_fetched_successfully": 150,
     "pages_failed": 0,
@@ -908,7 +908,7 @@
     "total_files": 149,
     "fetch_tool_version": "3.0"
   },
-  "last_updated": "2026-06-19T18:39:05.536940",
+  "last_updated": "2026-06-19T21:27:27.319952",
   "base_url": "https://raw.githubusercontent.com/colinkuo/claude-code-docs/main/docs/",
   "github_repository": "colinkuo/claude-code-docs",
   "github_ref": "main",
