@@ -556,8 +556,8 @@
     "mcp-quickstart.md": {
       "original_url": "https://code.claude.com/docs/en/mcp-quickstart",
       "original_md_url": "https://code.claude.com/docs/en/mcp-quickstart.md",
-      "hash": "5f6d016806415cc787c57aac113aa64d2a1e0409f6d68a00a57decd7ca01fecf",
-      "last_updated": "2026-06-18T21:42:30.032604"
+      "hash": "f43273b572b5d8119f4fe89fa2b8baa8c5b7fa8e7b6fd4900828957e6ea9b136",
+      "last_updated": "2026-06-25T15:52:41.437687"
     },
     "memory.md": {
       "original_url": "https://code.claude.com/docs/en/memory",
@@ -682,8 +682,8 @@
     "routines.md": {
       "original_url": "https://code.claude.com/docs/en/routines",
       "original_md_url": "https://code.claude.com/docs/en/routines.md",
-      "hash": "27213e9ed746e4bde09615714f53bf8e5478c2d6948ee0bdf4eae1df96f73606",
-      "last_updated": "2026-05-20T00:42:11.475205"
+      "hash": "3c3f8316c1c3965ca27ae8504883f4f06b2b8bc0f90c1b34ed49cdf2f37c5860",
+      "last_updated": "2026-06-25T15:53:02.281803"
     },
     "sandbox-environments.md": {
       "original_url": "https://code.claude.com/docs/en/sandbox-environments",
@@ -820,8 +820,8 @@
     "web-quickstart.md": {
       "original_url": "https://code.claude.com/docs/en/web-quickstart",
       "original_md_url": "https://code.claude.com/docs/en/web-quickstart.md",
-      "hash": "4bc908bec82703037e32f2d6062e61c319234e696d6ede064175414372ab56aa",
-      "last_updated": "2026-06-10T00:47:18.336930"
+      "hash": "b2f588fb0e46d45c5fc7fccec9910ca05245cc94070ca01076f2a4b4a47cb471",
+      "last_updated": "2026-06-25T15:53:24.139837"
     },
     "whats-new.md": {
       "original_url": "https://code.claude.com/docs/en/whats-new",
@@ -921,8 +921,8 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-06-25T12:51:40.441105",
-    "fetch_duration_seconds": 183.081708,
+    "last_fetch_completed": "2026-06-25T15:53:40.019767",
+    "fetch_duration_seconds": 145.243303,
     "total_pages_discovered": 153,
     "pages_fetched_successfully": 154,
     "pages_failed": 0,
@@ -932,7 +932,7 @@
     "total_files": 153,
     "fetch_tool_version": "3.0"
   },
-  "last_updated": "2026-06-25T12:51:40.441138",
+  "last_updated": "2026-06-25T15:53:40.019794",
   "base_url": "https://raw.githubusercontent.com/colinkuo/claude-code-docs/main/docs/",
   "github_repository": "colinkuo/claude-code-docs",
   "github_ref": "main",
