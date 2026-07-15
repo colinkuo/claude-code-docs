@@ -586,8 +586,8 @@
     "llm-gateway-connect.md": {
       "original_url": "https://code.claude.com/docs/en/llm-gateway-connect",
       "original_md_url": "https://code.claude.com/docs/en/llm-gateway-connect.md",
-      "hash": "984e16537c508efef44fc74300179a80e56a96e34ca7aa5fab3275e72babbead",
-      "last_updated": "2026-07-14T19:12:59.360328"
+      "hash": "9390c0af5e7bbf74556d30ddf126b5cb88fd234566284242624824ba722451af",
+      "last_updated": "2026-07-15T16:19:25.328441"
     },
     "llm-gateway-protocol.md": {
       "original_url": "https://code.claude.com/docs/en/llm-gateway-protocol",
@@ -1005,8 +1005,8 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-07-15T13:28:23.825495",
-    "fetch_duration_seconds": 203.594133,
+    "last_fetch_completed": "2026-07-15T16:20:53.613710",
+    "fetch_duration_seconds": 295.740552,
     "total_pages_discovered": 167,
     "pages_fetched_successfully": 168,
     "pages_failed": 0,
@@ -1016,7 +1016,7 @@
     "total_files": 167,
     "fetch_tool_version": "3.0"
   },
-  "last_updated": "2026-07-15T13:28:23.825522",
+  "last_updated": "2026-07-15T16:20:53.613738",
   "base_url": "https://raw.githubusercontent.com/colinkuo/claude-code-docs/main/docs/",
   "github_repository": "colinkuo/claude-code-docs",
   "github_ref": "main",
