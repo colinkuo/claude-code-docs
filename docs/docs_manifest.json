@@ -81,8 +81,8 @@
     "agent-sdk__observability.md": {
       "original_url": "https://code.claude.com/docs/en/agent-sdk/observability",
       "original_md_url": "https://code.claude.com/docs/en/agent-sdk/observability.md",
-      "hash": "6cf771d618224364c832cda432ddf9d3c7e163bef8b96e1476cb563d25a61da1",
-      "last_updated": "2026-07-21T02:09:33.509020"
+      "hash": "717950ed8a38289da46a66eb2955caeeb914a29d62581390289480381f72ea9f",
+      "last_updated": "2026-07-21T16:20:01.976312"
     },
     "agent-sdk__overview.md": {
       "original_url": "https://code.claude.com/docs/en/agent-sdk/overview",
@@ -286,8 +286,8 @@
     "chrome.md": {
       "original_url": "https://code.claude.com/docs/en/chrome",
       "original_md_url": "https://code.claude.com/docs/en/chrome.md",
-      "hash": "8dc6461269855d7c01b35a9424a2fd24e0ce473a380cb101b026557bd8c4f639",
-      "last_updated": "2026-07-21T02:10:21.373312"
+      "hash": "5a950a736c9b5b79672a8f447173e0dffccbf0a08427ec34a3633200b31586d9",
+      "last_updated": "2026-07-21T16:20:44.016656"
     },
     "claude-apps-gateway.md": {
       "original_url": "https://code.claude.com/docs/en/claude-apps-gateway",
@@ -652,8 +652,8 @@
     "monitoring-usage.md": {
       "original_url": "https://code.claude.com/docs/en/monitoring-usage",
       "original_md_url": "https://code.claude.com/docs/en/monitoring-usage.md",
-      "hash": "37a5bd417f54a08064d418dcdbcd68184991687de72e1975839248428ba146aa",
-      "last_updated": "2026-07-21T02:11:48.749057"
+      "hash": "b74c88ed7c35d6f465a37c4a0d14a12dd221f8ffcbd2c680aba8d266e2678d6b",
+      "last_updated": "2026-07-21T16:21:53.833222"
     },
     "network-config.md": {
       "original_url": "https://code.claude.com/docs/en/network-config",
@@ -766,8 +766,8 @@
     "sandboxing.md": {
       "original_url": "https://code.claude.com/docs/en/sandboxing",
       "original_md_url": "https://code.claude.com/docs/en/sandboxing.md",
-      "hash": "51f127a3c5a38011fa8eb8e4a2c57c657743581ff78097a426160bf7e08ef932",
-      "last_updated": "2026-07-21T02:12:14.643490"
+      "hash": "4a3944a633848184a0b52dec44ea96c615b07806d605e79f3f7cd648fce7de94",
+      "last_updated": "2026-07-21T16:22:17.515186"
     },
     "scheduled-tasks.md": {
       "original_url": "https://code.claude.com/docs/en/scheduled-tasks",
@@ -1023,8 +1023,8 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-07-21T13:29:42.472151",
-    "fetch_duration_seconds": 180.072213,
+    "last_fetch_completed": "2026-07-21T16:23:10.109462",
+    "fetch_duration_seconds": 232.919969,
     "total_pages_discovered": 170,
     "pages_fetched_successfully": 171,
     "pages_failed": 0,
@@ -1034,7 +1034,7 @@
     "total_files": 170,
     "fetch_tool_version": "3.0"
   },
-  "last_updated": "2026-07-21T13:29:42.472182",
+  "last_updated": "2026-07-21T16:23:10.109489",
   "base_url": "https://raw.githubusercontent.com/colinkuo/claude-code-docs/main/docs/",
   "github_repository": "colinkuo/claude-code-docs",
   "github_ref": "main",
