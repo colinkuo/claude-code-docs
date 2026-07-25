@@ -568,8 +568,8 @@
     "interactive-mode.md": {
       "original_url": "https://code.claude.com/docs/en/interactive-mode",
       "original_md_url": "https://code.claude.com/docs/en/interactive-mode.md",
-      "hash": "282f0498c0dd2600fb538f616eae32f9c3d200e9edb8e7c734d66371586b01c0",
-      "last_updated": "2026-07-23T02:15:04.725803"
+      "hash": "90e27bd6098951770c798f7c8df4c01c321bc1bf1ce7c0a69562b05006211036",
+      "last_updated": "2026-07-25T21:51:33.335602"
     },
     "jetbrains.md": {
       "original_url": "https://code.claude.com/docs/en/jetbrains",
@@ -718,8 +718,8 @@
     "plugin-marketplaces.md": {
       "original_url": "https://code.claude.com/docs/en/plugin-marketplaces",
       "original_md_url": "https://code.claude.com/docs/en/plugin-marketplaces.md",
-      "hash": "b26587f202719e55188d55f099b17adad7a64a046bf838a7843627aa72e4129e",
-      "last_updated": "2026-07-21T19:14:25.052723"
+      "hash": "ba170944ebfaffed2546f18950d01ac207819c29e6bd58ea82a07a3cb2752209",
+      "last_updated": "2026-07-25T21:52:00.217153"
     },
     "plugin-relevance.md": {
       "original_url": "https://code.claude.com/docs/en/plugin-relevance",
@@ -1035,8 +1035,8 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-07-25T19:02:17.388970",
-    "fetch_duration_seconds": 160.22801,
+    "last_fetch_completed": "2026-07-25T21:52:45.363827",
+    "fetch_duration_seconds": 174.985261,
     "total_pages_discovered": 172,
     "pages_fetched_successfully": 173,
     "pages_failed": 0,
@@ -1046,7 +1046,7 @@
     "total_files": 172,
     "fetch_tool_version": "3.0"
   },
-  "last_updated": "2026-07-25T19:02:17.388998",
+  "last_updated": "2026-07-25T21:52:45.363854",
   "base_url": "https://raw.githubusercontent.com/colinkuo/claude-code-docs/main/docs/",
   "github_repository": "colinkuo/claude-code-docs",
   "github_ref": "main",
