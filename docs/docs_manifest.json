@@ -340,8 +340,8 @@
     "claude-security.md": {
       "original_url": "https://code.claude.com/docs/en/claude-security",
       "original_md_url": "https://code.claude.com/docs/en/claude-security.md",
-      "hash": "6f9752ae970fb50f74980b86e1c88c97fb921355bc6b143d209ceb4948ffde2a",
-      "last_updated": "2026-07-23T19:09:54.272564"
+      "hash": "0743d991ec5ce85a4e6f5ae73eecc60e5ffda2fd45083e4aa0663823adbc7b08",
+      "last_updated": "2026-07-28T16:30:49.844404"
     },
     "cli-reference.md": {
       "original_url": "https://code.claude.com/docs/en/cli-reference",
@@ -1041,8 +1041,8 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-07-28T13:55:18.561520",
-    "fetch_duration_seconds": 175.309433,
+    "last_fetch_completed": "2026-07-28T16:32:48.596620",
+    "fetch_duration_seconds": 179.146067,
     "total_pages_discovered": 173,
     "pages_fetched_successfully": 174,
     "pages_failed": 0,
@@ -1052,7 +1052,7 @@
     "total_files": 173,
     "fetch_tool_version": "3.0"
   },
-  "last_updated": "2026-07-28T13:55:18.561546",
+  "last_updated": "2026-07-28T16:32:48.596645",
   "base_url": "https://raw.githubusercontent.com/colinkuo/claude-code-docs/main/docs/",
   "github_repository": "colinkuo/claude-code-docs",
   "github_ref": "main",
