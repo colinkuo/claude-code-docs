@@ -784,8 +784,8 @@
     "prompt-caching.md": {
       "original_url": "https://code.claude.com/docs/en/prompt-caching",
       "original_md_url": "https://code.claude.com/docs/en/prompt-caching.md",
-      "hash": "23e07b44514d9ff546a5c150ffc6836c31db0f0ec8ac72779b88e18bb0203cc1",
-      "last_updated": "2026-09-01T18:10:05.211419"
+      "hash": "896f69cf6d5f367decef102622285a71a6c6ca36274a015b8d3889d33f8d9263",
+      "last_updated": "2026-09-03T02:39:32.131443"
     },
     "prompt-library.md": {
       "original_url": "https://code.claude.com/docs/en/prompt-library",
@@ -1149,8 +1149,8 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-09-02T22:59:23.718914",
-    "fetch_duration_seconds": 173.803912,
+    "last_fetch_completed": "2026-09-03T02:40:22.854325",
+    "fetch_duration_seconds": 159.283913,
     "total_pages_discovered": 191,
     "pages_fetched_successfully": 192,
     "pages_failed": 0,
@@ -1160,7 +1160,7 @@
     "total_files": 191,
     "fetch_tool_version": "3.0"
   },
-  "last_updated": "2026-09-02T22:59:23.718935",
+  "last_updated": "2026-09-03T02:40:22.854350",
   "base_url": "https://raw.githubusercontent.com/colinkuo/claude-code-docs/main/docs/",
   "github_repository": "colinkuo/claude-code-docs",
   "github_ref": "main",
