@@ -448,8 +448,8 @@
     "desktop.md": {
       "original_url": "https://code.claude.com/docs/en/desktop",
       "original_md_url": "https://code.claude.com/docs/en/desktop.md",
-      "hash": "b8a6ef9c5dd76007afc525b06e2a1efe32e3cc000604f840bafe59492aa8f105",
-      "last_updated": "2026-09-13T22:48:23.947553"
+      "hash": "5c6c8360a3563a1150224187c55d6ceeb12d863748930bd6be7fca8246e87deb",
+      "last_updated": "2026-09-14T08:46:49.651232"
     },
     "desktop-ios-simulator.md": {
       "original_url": "https://code.claude.com/docs/en/desktop-ios-simulator",
@@ -1155,8 +1155,8 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-09-14T03:01:51.033830",
-    "fetch_duration_seconds": 136.501412,
+    "last_fetch_completed": "2026-09-14T08:47:57.594374",
+    "fetch_duration_seconds": 112.995137,
     "total_pages_discovered": 192,
     "pages_fetched_successfully": 193,
     "pages_failed": 0,
@@ -1166,7 +1166,7 @@
     "total_files": 192,
     "fetch_tool_version": "3.0"
   },
-  "last_updated": "2026-09-14T03:01:51.033860",
+  "last_updated": "2026-09-14T08:47:57.594401",
   "base_url": "https://raw.githubusercontent.com/colinkuo/claude-code-docs/main/docs/",
   "github_repository": "colinkuo/claude-code-docs",
   "github_ref": "main",
