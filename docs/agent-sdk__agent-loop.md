@@ -324,7 +324,7 @@ When the loop ends, the `ResultMessage` tells you what happened and gives you th
 
 The `result` field holds the final text output and is only present on the `success` variant, so always check the subtype before reading it.
 
-All result subtypes carry `total_cost_usd`, `usage`, `num_turns`, and `session_id` so you can track cost and resume even after errors. Two things to guard for:
+All result subtypes carry `total_cost_usd`, `usage`, `num_turns`, and `session_id` so you can track cost and resume even after errors. Guard for these cases:
 
 * After a session crash, the final result is an `error_during_execution` whose cost fields may be zeroed and whose `stop_reason` is `null`, and the process exits after emitting it. See [Recover totals after a session crash](/docs/en/agent-sdk/cost-tracking#recover-totals-after-a-session-crash).
 * In Python, `total_cost_usd`, `usage`, and `model_usage` are typed as optional, so check that they aren't `None` before you read them.

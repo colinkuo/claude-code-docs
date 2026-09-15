@@ -100,12 +100,12 @@ def tool(
 
 #### Parameters
 
-| Parameter      | Type                                            | Description                                                         |
-| :------------- | :---------------------------------------------- | :------------------------------------------------------------------ |
-| `name`         | `str`                                           | Unique identifier for the tool                                      |
-| `description`  | `str`                                           | Human-readable description of what the tool does                    |
-| `input_schema` | `type \| dict[str, Any]`                        | Schema defining the tool's input parameters (see below)             |
-| `annotations`  | [`ToolAnnotations`](#toolannotations)` \| None` | Optional MCP tool annotations providing behavioral hints to clients |
+| Parameter      | Type                                            | Description                                                                                    |
+| :------------- | :---------------------------------------------- | :--------------------------------------------------------------------------------------------- |
+| `name`         | `str`                                           | Unique identifier for the tool                                                                 |
+| `description`  | `str`                                           | Human-readable description of what the tool does                                               |
+| `input_schema` | `type \| dict[str, Any]`                        | Schema defining the tool's input parameters. See [Input schema options](#input-schema-options) |
+| `annotations`  | [`ToolAnnotations`](#toolannotations)` \| None` | Optional MCP tool annotations providing behavioral hints to clients                            |
 
 #### Input schema options
 
@@ -2374,7 +2374,7 @@ class AsyncHookJSONOutput(TypedDict):
 
 ### Hook Usage Example
 
-This example registers two hooks: one that blocks dangerous bash commands like `rm -rf /`, and another that logs all tool usage for auditing. The security hook only runs on Bash commands (via the `matcher`), while the logging hook runs on all tools.
+This example registers two hooks: one that blocks dangerous Bash commands like `rm -rf /`, and another that logs all tool usage for auditing. The security hook only runs on Bash commands (via the `matcher`), while the logging hook runs on all tools.
 
 ```python theme={null}
 import asyncio
@@ -2524,15 +2524,15 @@ Launches a new agent to handle complex, multi-step tasks autonomously.
 ```python theme={null}
 {
     "status": "remote_launched",
-    "taskId": str,  # ID of the remote task
-    "sessionUrl": str,  # Link to the remote cloud session
+    "taskId": str,  # ID of the dispatched task
+    "sessionUrl": str,  # Link to the cloud session
     "description": str,  # The task description
     "prompt": str,  # The prompt the agent runs
     "outputFile": str,  # File path where the agent's output is written
 }
 ```
 
-Returns the result from the subagent. The output is discriminated on the `status` field: `"completed"` for finished tasks, `"async_launched"` for background tasks, and `"remote_launched"` for tasks Claude Code dispatched to a remote cloud session, where `sessionUrl` links to that session and `taskId` identifies it. If Claude Code [kept the subagent's isolated worktree](/docs/en/worktrees#isolate-subagents-with-worktrees), `worktreePath` on the `completed` variant is where to find it, and `worktreeBranch` is its branch when Claude Code created the worktree with git.
+Returns the result from the subagent. The output is discriminated on the `status` field: `"completed"` for finished tasks, `"async_launched"` for background tasks, and `"remote_launched"` for tasks Claude Code dispatched to a cloud session, where `sessionUrl` links to that session and `taskId` identifies it. If Claude Code [kept the subagent's isolated worktree](/docs/en/worktrees#isolate-subagents-with-worktrees), `worktreePath` on the `completed` variant is where to find it, and `worktreeBranch` is its branch when Claude Code created the worktree with git.
 
 On the `completed` variant, `resolvedModel` names the model the subagent started on, which can differ from the requested `model` input when [`availableModels`](/docs/en/model-config#restrict-model-selection) or another override applies. This field requires Claude Code v2.1.174 or later. On the `async_launched` variant, `resolvedModel` names the model in use when the agent moved to the background, so a swap that happened before backgrounding is reflected there. The `modelsUsed` field on both variants lists the models used in order, with consecutive repeats collapsed; it's set only when the model was swapped mid-run. `modelsUsed` and the backgrounding-time `resolvedModel` behavior require Claude Code v2.1.212 or later.
 
