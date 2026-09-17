@@ -175,7 +175,11 @@ When a thread changes code, this is what it does unless you tell it otherwise:
 * **Pull request**: opens one when you ask, and can open one on its own for a bug fix or another concrete change.
 * **After it opens**: watches the pull request with [auto-fix](/docs/en/claude-code-on-the-web#auto-fix-pull-requests) turned on, whether or not auto-fix is on for your other cloud sessions. It pushes fixes when CI fails, addresses review comments, and replies in the thread when checks pass and the pull request is ready for you.
 
-The thread's card in the conversation shows a button for the pull request's next step when there is one, such as **Resolve conflicts**, **Fix CI**, **Address comments**, or **Merge it**. Clicking it sends that instruction to the thread as a message from you, so you can prompt the thread yourself instead of waiting for it to react to the pull request. **Review PR** opens the pull request on GitHub.
+When a thread has pushed a branch or opened a pull request, its card in the conversation can show a button for the next step:
+
+* **Resolve conflicts**, **Fix CI**, **Address comments**, and **Merge it** send that instruction to the thread as a message from you, so you can prompt the thread yourself instead of waiting for it to react to the pull request.
+* **Review PR** opens the pull request on GitHub.
+* **Create PR** appears when an idle thread has pushed a branch but hasn't opened a pull request. Clicking it creates the pull request from that branch directly rather than sending the thread an instruction to open one.
 
 To change when threads open pull requests, for example only when you ask, or which branch they start from, say so in the task or in [project instructions](#write-project-instructions).
 
@@ -455,7 +459,7 @@ These messages name their own cause. The table gives the next step for each.
 | "The project's environment was removed"                                                        | Choose a different environment in **Project settings > Environment**; the change applies to new threads                                                                                                                   |
 | "Setup script failed"                                                                          | Click **Edit setup script** on the error, fix the script in the environment, then send another message. [Setup script failed](/docs/en/web-quickstart#setup-script-failed) lists common causes                                 |
 | "Claude ran out of context on this turn"                                                       | The thread filled its context window. If the message says the thread continues in a fresh session, it carries on by itself; otherwise ask Claude in the project conversation to start a new thread for the remaining work |
-| "Reached the turn limit"                                                                       | The thread hit the cap on steps for one message. Send another message with a smaller or more specific request, or ask Claude to split the task across threads                                                             |
+| "Reached the turn limit"                                                                       | The thread reached the cap on agentic turns that [`CLAUDE_CODE_MAX_TURNS`](/docs/en/env-vars) sets. Send another message to continue, or raise or remove that variable where it's set                                          |
 
 ## Related resources
 
