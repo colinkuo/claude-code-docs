@@ -249,8 +249,8 @@
     "authentication.md": {
       "original_url": "https://code.claude.com/docs/en/authentication",
       "original_md_url": "https://code.claude.com/docs/en/authentication.md",
-      "hash": "265ebd5df6ffc6bfc0e0e7c904cd113ab5de8c55d290956b6f996657d8c6aa94",
-      "last_updated": "2026-09-29T03:50:50.124685"
+      "hash": "bbe9415eba2aee489d5dfab25fcca10bcc1f3465ffba6dd59fe20ede952b9a25",
+      "last_updated": "2026-09-29T11:59:35.787977"
     },
     "auto-mode-config.md": {
       "original_url": "https://code.claude.com/docs/en/auto-mode-config",
@@ -1257,8 +1257,8 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-09-29T03:52:46.016047",
-    "fetch_duration_seconds": 145.470465,
+    "last_fetch_completed": "2026-09-29T12:01:13.107865",
+    "fetch_duration_seconds": 121.667214,
     "total_pages_discovered": 209,
     "pages_fetched_successfully": 210,
     "pages_failed": 0,
@@ -1268,7 +1268,7 @@
     "total_files": 209,
     "fetch_tool_version": "3.0"
   },
-  "last_updated": "2026-09-29T03:52:46.016075",
+  "last_updated": "2026-09-29T12:01:13.107918",
   "base_url": "https://raw.githubusercontent.com/colinkuo/claude-code-docs/main/docs/",
   "github_repository": "colinkuo/claude-code-docs",
   "github_ref": "main",
