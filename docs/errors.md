@@ -2693,7 +2693,7 @@ API Error: Opus 4.8's safeguards flagged this message. Our intentionally broad s
 
 If the message includes the line `` Details: `[reasoning_extraction]` ``, see [Safeguards flagged a request for Claude's reasoning](#safeguards-flagged-a-request-for-claudes-reasoning).
 
-The message links to the [Cyber Verification Program](https://support.claude.com/en/articles/14604842-real-time-cyber-safeguards-on-claude), which grants access for legitimate cybersecurity work. On Opus 5.5 and Sonnet 5.5, the message opens with `<model>'s safeguards flagged this session` instead. When the flagged category has a fallback model available, Claude Code [switches models](/docs/en/model-config#automatic-model-fallback) rather than showing this error.
+This message links to the [Cyber Verification Program](https://support.claude.com/en/articles/14604842-real-time-cyber-safeguards-on-claude), which grants access for legitimate cybersecurity work. Models with [automatic model fallback](/docs/en/model-config#automatic-model-fallback) print a different message, without this link; on Opus 5.5 and Sonnet 5.5 it opens with `<model>'s safeguards flagged this session`. That section also covers when Claude Code switches models instead.
 
 On [Amazon Bedrock](/docs/en/amazon-bedrock), [Google Cloud's Agent Platform](/docs/en/google-vertex-ai), and [Microsoft Foundry](/docs/en/microsoft-foundry), a cybersecurity flag produces the [Usage Policy refusal](#usage-policy-refusal) message instead.
 
